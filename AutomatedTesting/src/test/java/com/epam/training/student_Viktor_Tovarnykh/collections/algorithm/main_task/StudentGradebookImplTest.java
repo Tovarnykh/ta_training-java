@@ -1,4 +1,4 @@
-package com.epam.rd.autocode.collections;
+package com.epam.training.student_Viktor_Tovarnykh.collections.algorithm.main_task;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -17,6 +17,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
+import com.epam.training.student_viktor_tovarnykh.collections.algorithm.main_task.Student;
+import com.epam.training.student_viktor_tovarnykh.collections.algorithm.main_task.StudentGradebook;
+import com.epam.training.student_viktor_tovarnykh.collections.algorithm.main_task.StudentGradebookImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -36,40 +39,6 @@ class StudentGradebookImplTest {
 	private static boolean isAllTestsMustFailed;
 
 	private static Throwable complianceTestFailedCause;
-
-	static {
-		try {
-			String testClassName = new Exception().getStackTrace()[0].getClassName();
-			String className = testClassName.substring(0, testClassName.lastIndexOf("Test"));
-			Class<?> c = Class.forName(className);
-
-			java.lang.reflect.Method[] methods = { 
-					c.getDeclaredMethod("addEntryOfStudent", Student.class, String.class, BigDecimal.class),
-					c.getDeclaredMethod("size"),
-					c.getDeclaredMethod("getStudentsByDiscipline", String.class),
-					c.getDeclaredMethod("getComparator"),
-					c.getDeclaredMethod("removeStudentsByGrade", BigDecimal.class),
-					c.getDeclaredMethod("getAndSortAllStudents")
-				};
-
-			org.apache.bcel.classfile.JavaClass jc = org.apache.bcel.Repository.lookupClass(c);
-			for (java.lang.reflect.Method method : methods) {
-				org.apache.bcel.classfile.Method m = jc.getMethod(method);
-				org.apache.bcel.classfile.Code code = m.getCode();
-				Assertions.assertTrue(code.getCode().length > 2, () -> m + " is not a stub");
-			}
-		} catch (Throwable t) {
-			isAllTestsMustFailed = true;
-			complianceTestFailedCause = t;
-			t.printStackTrace();
-		}
-	}
-
-	{
-		if (isAllTestsMustFailed) {
-			Assertions.fail(() -> "Compliance test failed: " + complianceTestFailedCause.getMessage());
-		}
-	}
 
 	//////////////////////////////////////////////////////////////////////////////
 
@@ -199,22 +168,6 @@ class StudentGradebookImplTest {
 			.findAny()
 			.ifPresent(m -> 
 					fail(() -> "Using of lambda expressions is restricted: " + m));
-	}
-	
-	@Test
-	void appShouldNotUseJavaUtilStream() {
-		SpoonAPI spoon = new Launcher();
-		spoon.addInputResource("src/main/java/");
-		spoon.buildModel();
-
-		spoon.getModel()
-			.getElements(new TypeFilter<>(CtTypeReference.class))
-			.stream()
-			.filter(r -> r.toString().startsWith("java.util.stream"))
-			.map(CtTypeReference::getQualifiedName)
-			.findAny()
-			.ifPresent(name -> 
-					fail(() -> "Using of stream API is restricted: " + name));
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.epam.rd.qa.basicio;
+package com.epam.training.student_viktor_tovarnykh.exceptions.main_task;
 
 /**
  * Encapsulates two-dimensional array-matrix block of real ({@code double}) type.

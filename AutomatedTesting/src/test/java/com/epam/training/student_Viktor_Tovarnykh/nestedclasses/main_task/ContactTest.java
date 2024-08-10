@@ -1,9 +1,8 @@
-package com.epam.rd.contactbook;
+package com.epam.training.student_Viktor_Tovarnykh.nestedclasses.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.nestedclasses.main_task.Contact;
+import com.epam.training.student_viktor_tovarnykh.nestedclasses.main_task.ContactInfo;
 import org.junit.jupiter.api.Test;
-
-import java.util.Arrays;
-import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 

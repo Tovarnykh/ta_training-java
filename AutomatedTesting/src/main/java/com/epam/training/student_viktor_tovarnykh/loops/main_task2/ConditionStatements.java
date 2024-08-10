@@ -1,13 +1,9 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_viktor_tovarnykh.loops.main_task2;
 
-import java.rmi.UnexpectedException;
-import java.util.Arrays;
 import java.util.Comparator;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-class ConditionStatements {
+public class ConditionStatements {
 
     public static int task2(int n) {
 

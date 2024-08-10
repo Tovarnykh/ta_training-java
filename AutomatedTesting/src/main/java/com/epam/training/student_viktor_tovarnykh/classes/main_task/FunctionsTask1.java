@@ -1,7 +1,7 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_viktor_tovarnykh.classes.main_task;
 
 
-class FunctionsTask1 {
+public class FunctionsTask1 {
     /**
      * <summary>
      * Implement code according to description of task.

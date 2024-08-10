@@ -1,6 +1,6 @@
-package com.epam.rd.autotasks.meetautocode;
+package com.epam.training.student_Viktor_Tovarnykh.datatypes.main_task;
 
-
+import com.epam.training.student_viktor_tovarnykh.datatypes.main_task.ElectronicWatch;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -13,7 +13,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 
 class ElectronicWatchTest {
 

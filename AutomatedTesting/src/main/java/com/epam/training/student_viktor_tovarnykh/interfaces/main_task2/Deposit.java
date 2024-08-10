@@ -1,4 +1,4 @@
-package com.epam.rd.qa.collections;
+package com.epam.training.student_viktor_tovarnykh.interfaces.main_task2;
 
 import java.math.BigDecimal;
 import java.util.Objects;

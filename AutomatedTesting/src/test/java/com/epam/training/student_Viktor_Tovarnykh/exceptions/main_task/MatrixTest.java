@@ -1,5 +1,7 @@
-package com.epam.rd.qa.basicio;
+package com.epam.training.student_Viktor_Tovarnykh.exceptions.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.exceptions.main_task.Matrix;
+import com.epam.training.student_viktor_tovarnykh.exceptions.main_task.MatrixException;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

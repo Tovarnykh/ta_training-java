@@ -1,8 +1,6 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_viktor_tovarnykh.loops.main_task;
 
-import java.rmi.UnexpectedException;
-
-class ConditionStatements {
+public class ConditionStatements {
     public static int task1(int n) {
         if (n > 0) {
             return n * n;

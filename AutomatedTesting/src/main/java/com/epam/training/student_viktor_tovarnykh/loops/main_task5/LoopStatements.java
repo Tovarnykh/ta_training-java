@@ -1,7 +1,6 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_viktor_tovarnykh.loops.main_task5;
 
-
-class LoopStatements {
+public class LoopStatements {
     public static int sumOfFibonacciNumbers(int n) {
 
         if (n < 0) {

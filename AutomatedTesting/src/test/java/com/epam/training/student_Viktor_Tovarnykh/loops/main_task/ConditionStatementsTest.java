@@ -1,5 +1,6 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_Viktor_Tovarnykh.loops.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.loops.main_task.ConditionStatements;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

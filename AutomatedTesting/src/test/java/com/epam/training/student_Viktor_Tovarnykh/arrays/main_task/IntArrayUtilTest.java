@@ -1,12 +1,15 @@
-package com.epam.rd.autotasks.array;
+package com.epam.training.student_Viktor_Tovarnykh.arrays.main_task;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import java.lang.reflect.Method;
 
+import com.epam.training.student_viktor_tovarnykh.arrays.main_task.IntArrayUtil;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.DisplayNameGenerator;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+
 
 @DisplayNameGeneration(ReplaceCamelCase.class)
 class IntArrayUtilTest {

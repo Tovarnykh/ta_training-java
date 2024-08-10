@@ -1,5 +1,6 @@
-package com.epam.rd.autotasks.max;
+package com.epam.training.student_Viktor_Tovarnykh.optional.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.optional.main_task.MaxMethod;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

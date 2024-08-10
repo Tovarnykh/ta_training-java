@@ -1,4 +1,4 @@
-package com.epam.rd.qa.inheritance;
+package com.epam.training.student_viktor_tovarnykh.oop.main_task;
 
 import java.math.BigDecimal;
 

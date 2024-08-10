@@ -1,10 +1,10 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_viktor_tovarnykh.classes.main_task2;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
+import static com.epam.training.student_viktor_tovarnykh.classes.main_task2.FunctionsTask2.transform;
 
-import static com.epam.rd.autotasks.FunctionsTask2.transform;
 
 public class Main {
 

@@ -1,8 +1,6 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_Viktor_Tovarnykh.loops.main_task2;
 
-import java.util.Arrays;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import com.epam.training.student_viktor_tovarnykh.loops.main_task2.ConditionStatements;
 
 public class Main {
     public static void main(String[] args) {

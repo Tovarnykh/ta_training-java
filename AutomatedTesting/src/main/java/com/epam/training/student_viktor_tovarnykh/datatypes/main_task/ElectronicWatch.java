@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.meetautocode;
+package com.epam.training.student_viktor_tovarnykh.datatypes.main_task;
 
 import java.util.Scanner;
 

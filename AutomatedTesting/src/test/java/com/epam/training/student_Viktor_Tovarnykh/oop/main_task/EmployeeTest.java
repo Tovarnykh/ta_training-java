@@ -1,6 +1,8 @@
-package com.epam.rd.qa.inheritance;
+package com.epam.training.student_Viktor_Tovarnykh.oop.main_task;
 
-
+import com.epam.training.student_viktor_tovarnykh.oop.main_task.Employee;
+import com.epam.training.student_viktor_tovarnykh.oop.main_task.Manager;
+import com.epam.training.student_viktor_tovarnykh.oop.main_task.SalesPerson;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;

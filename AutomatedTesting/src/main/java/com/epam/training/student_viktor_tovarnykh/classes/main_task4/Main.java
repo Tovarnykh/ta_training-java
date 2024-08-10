@@ -1,10 +1,9 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_viktor_tovarnykh.classes.main_task4;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
+import static com.epam.training.student_viktor_tovarnykh.classes.main_task4.FunctionsTask4.sumGeometricElements;
 
-import static com.epam.rd.autotasks.FunctionsTask4.sumGeometricElements;
 
 public class Main {
 

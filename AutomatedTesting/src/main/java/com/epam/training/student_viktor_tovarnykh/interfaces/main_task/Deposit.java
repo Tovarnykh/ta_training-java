@@ -1,4 +1,4 @@
-package com.epam.rd.qa.aggregation;
+package com.epam.training.student_viktor_tovarnykh.interfaces.main_task;
 
 import java.math.BigDecimal;
 
@@ -19,7 +19,7 @@ public abstract class Deposit {
 
     public int getPeriod() { return period; }
 
-    abstract BigDecimal income();
+    public abstract BigDecimal income();
 
 }
 

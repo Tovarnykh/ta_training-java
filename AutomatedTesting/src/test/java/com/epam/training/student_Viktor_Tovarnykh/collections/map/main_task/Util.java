@@ -1,5 +1,7 @@
-package com.epam.rd.autotasks.collections.map;
+package com.epam.training.student_Viktor_Tovarnykh.collections.map.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.collections.map.main_task.Author;
+import com.epam.training.student_viktor_tovarnykh.collections.map.main_task.Book;
 import org.junit.jupiter.api.Assertions;
 
 import java.io.IOException;

@@ -1,5 +1,6 @@
-package com.epam.rd.autotasks.words;
+package com.epam.training.student_Viktor_Tovarnykh.strings.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.strings.main_task.StringUtil;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

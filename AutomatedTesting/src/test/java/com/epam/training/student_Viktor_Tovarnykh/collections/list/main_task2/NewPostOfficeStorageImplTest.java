@@ -1,5 +1,8 @@
-package com.epam.rd.autotasks.collections;
+package com.epam.training.student_Viktor_Tovarnykh.collections.list.main_task2;
 
+import com.epam.training.student_viktor_tovarnykh.collections.list.main_task2.Box;
+import com.epam.training.student_viktor_tovarnykh.collections.list.main_task2.NewPostOfficeStorage;
+import com.epam.training.student_viktor_tovarnykh.collections.list.main_task2.NewPostOfficeStorageImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

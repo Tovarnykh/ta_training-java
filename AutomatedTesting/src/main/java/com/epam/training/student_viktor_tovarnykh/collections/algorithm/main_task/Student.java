@@ -1,4 +1,4 @@
-package com.epam.rd.autocode.collections;
+package com.epam.training.student_viktor_tovarnykh.collections.algorithm.main_task;
 
 /**
  * @author D.Kolesnikov

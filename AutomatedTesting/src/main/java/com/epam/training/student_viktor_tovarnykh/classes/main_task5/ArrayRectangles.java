@@ -1,4 +1,4 @@
-package com.epam.rd.qa.classes;
+package com.epam.training.student_viktor_tovarnykh.classes.main_task5;
 
 public class ArrayRectangles {
 

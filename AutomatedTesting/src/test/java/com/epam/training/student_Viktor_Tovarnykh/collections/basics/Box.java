@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_Viktor_Tovarnykh.collections.basics;
 
 import java.math.BigDecimal;
 import java.util.Objects;

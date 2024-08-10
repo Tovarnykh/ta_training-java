@@ -1,7 +1,7 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_Viktor_Tovarnykh.classes.main_task;
 
-
-
+import com.epam.training.student_viktor_tovarnykh.classes.main_task.FunctionsTask1;
+import com.epam.training.student_viktor_tovarnykh.classes.main_task.SortOrder;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

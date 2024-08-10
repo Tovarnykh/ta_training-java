@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.words;
+package com.epam.training.student_viktor_tovarnykh.strings.main_task;
 
 import java.util.Arrays;
 

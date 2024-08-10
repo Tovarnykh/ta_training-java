@@ -1,5 +1,6 @@
 package com.epam.rd.autotasks.collections.map;
 
+import com.epam.training.student_viktor_tovarnykh.collections.map.main_task.BooksCatalog;
 import com.tngtech.archunit.base.DescribedPredicate;
 import com.tngtech.archunit.core.domain.JavaClass;
 import com.tngtech.archunit.core.importer.ImportOption;

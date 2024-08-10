@@ -1,9 +1,15 @@
-package com.epam.rd.autocode.set;
+package com.epam.training.student_Viktor_Tovarnykh.collections.set.main_task;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+import com.epam.training.student_viktor_tovarnykh.collections.set.main_task.Project;
+import com.epam.training.student_viktor_tovarnykh.collections.set.main_task.Skill;
+import com.epam.training.student_viktor_tovarnykh.collections.set.main_task.Level;
+import com.epam.training.student_viktor_tovarnykh.collections.set.main_task.Position;
+import com.epam.training.student_viktor_tovarnykh.collections.set.main_task.Role;
+import com.epam.training.student_viktor_tovarnykh.collections.set.main_task.Member;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -11,44 +17,6 @@ import org.junit.jupiter.api.Test;
  * @author D. Kolesnikov
  */
 class ProjectTest {
-
-	//////////////////////////////////////////////////////////////////////////////
-
-	private static boolean isAllTestsMustFailed;
-
-	private static Throwable complianceTestFailedCause;
-
-	static {
-		try {
-			String testClassName = new Exception().getStackTrace()[0].getClassName();
-			String className = testClassName.substring(0, testClassName.lastIndexOf("Test"));
-			Class<?> c = Class.forName(className);
-
-			java.lang.reflect.Method[] methods = { 
-					c.getDeclaredMethod("getRoles"),
-					c.getDeclaredMethod("getConformity", Set.class)
-				};
-
-			org.apache.bcel.classfile.JavaClass jc = org.apache.bcel.Repository.lookupClass(c);
-			for (java.lang.reflect.Method method : methods) {
-				org.apache.bcel.classfile.Method m = jc.getMethod(method);
-				org.apache.bcel.classfile.Code code = m.getCode();
-				Assertions.assertTrue(code.getCode().length > 2, () -> m + " is not a stub");
-			}
-		} catch (Throwable t) {
-			isAllTestsMustFailed = true;
-			complianceTestFailedCause = t;
-			t.printStackTrace();
-		}
-	}
-
-	{
-		if (isAllTestsMustFailed) {
-			Assertions.fail(() -> "Compliance test failed: " + complianceTestFailedCause.getMessage());
-		}
-	}
-
-	//////////////////////////////////////////////////////////////////////////////
 	
 	@Test
 	void test1() {

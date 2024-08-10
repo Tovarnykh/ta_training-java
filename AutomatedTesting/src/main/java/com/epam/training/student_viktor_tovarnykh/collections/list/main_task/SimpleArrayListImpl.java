@@ -1,4 +1,4 @@
-package com.epam.rd.autocode.collection.array;
+package com.epam.training.student_viktor_tovarnykh.collections.list.main_task;
 
 import java.util.*;
 

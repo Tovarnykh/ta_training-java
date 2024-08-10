@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_viktor_tovarnykh.classes.main_task3;
 
 public class FunctionsTask3 {
     /**

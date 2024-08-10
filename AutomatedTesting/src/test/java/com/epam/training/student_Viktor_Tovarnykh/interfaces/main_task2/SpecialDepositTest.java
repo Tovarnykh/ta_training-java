@@ -1,5 +1,6 @@
-package com.epam.rd.qa.collections;
+package com.epam.training.student_Viktor_Tovarnykh.interfaces.main_task2;
 
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task2.SpecialDeposit;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

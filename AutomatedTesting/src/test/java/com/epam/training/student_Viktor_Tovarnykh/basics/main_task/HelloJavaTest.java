@@ -1,5 +1,6 @@
-package com.epam.rd.autotasks.meetautocode;
+package com.epam.training.student_Viktor_Tovarnykh.basics.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.basics.main_task.HelloJava;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;

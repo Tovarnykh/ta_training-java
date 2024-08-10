@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.max;
+package com.epam.training.student_viktor_tovarnykh.optional.main_task;
 
 import java.util.OptionalInt;
 

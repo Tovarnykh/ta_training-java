@@ -1,9 +1,10 @@
-package com.epam.rd.autotasks.array;
+package com.epam.training.student_Viktor_Tovarnykh.arrays.main_task2;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.lang.reflect.Method;
 
+import com.epam.training.student_viktor_tovarnykh.arrays.main_task2.IntArrayUtil;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.DisplayNameGenerator;
 import org.junit.jupiter.api.Test;

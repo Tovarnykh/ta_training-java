@@ -1,4 +1,4 @@
-package com.epam.rd.autocode.collection.array;
+package com.epam.training.student_Viktor_Tovarnykh.collections.list.main_task;
 
 import static java.util.Arrays.asList;
 import static org.junit.jupiter.api.Assertions.*;
@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
+import com.epam.training.student_viktor_tovarnykh.collections.list.main_task.SimpleArrayList;
+import com.epam.training.student_viktor_tovarnykh.collections.list.main_task.SimpleArrayListImpl;
 import org.junit.jupiter.api.Test;
 
 import org.junit.jupiter.params.ParameterizedTest;

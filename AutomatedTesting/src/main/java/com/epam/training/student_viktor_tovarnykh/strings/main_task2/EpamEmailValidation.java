@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.validations;
+package com.epam.training.student_viktor_tovarnykh.strings.main_task2;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

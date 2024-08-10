@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.meetastranger;
+package com.epam.training.student_viktor_tovarnykh.basics.main_task2;
 
 import java.util.Scanner;
 

@@ -1,5 +1,10 @@
-package com.epam.rd.qa.aggregation;
+package com.epam.training.student_Viktor_Tovarnykh.interfaces.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.BaseDeposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.Deposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.LongDeposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.SpecialDeposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.Client;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -11,8 +16,8 @@ import java.math.BigDecimal;
 import java.util.Random;
 import java.util.stream.Stream;
 
-import static com.epam.rd.qa.aggregation.Util.generateDeposits;
-import static com.epam.rd.qa.aggregation.Util.nextInt;
+import static com.epam.training.student_Viktor_Tovarnykh.interfaces.main_task.Util.generateDeposits;
+import static com.epam.training.student_Viktor_Tovarnykh.interfaces.main_task.Util.nextInt;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ClientTest {

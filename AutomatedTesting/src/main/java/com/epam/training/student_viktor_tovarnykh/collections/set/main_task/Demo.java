@@ -1,4 +1,4 @@
-package com.epam.rd.autocode.set;
+package com.epam.training.student_viktor_tovarnykh.collections.set.main_task;
 
 import java.util.Arrays;
 import java.util.HashSet;

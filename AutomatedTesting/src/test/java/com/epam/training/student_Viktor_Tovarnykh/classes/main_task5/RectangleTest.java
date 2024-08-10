@@ -1,5 +1,6 @@
-package com.epam.rd.qa.classes;
+package com.epam.training.student_Viktor_Tovarnykh.classes.main_task5;
 
+import com.epam.training.student_viktor_tovarnykh.classes.main_task5.Rectangle;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

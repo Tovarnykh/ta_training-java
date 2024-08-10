@@ -1,10 +1,8 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_viktor_tovarnykh.classes.main_task3;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-
-import static com.epam.rd.autotasks.FunctionsTask3.multiArithmeticElements;
+import static com.epam.training.student_viktor_tovarnykh.classes.main_task3.FunctionsTask3.multiArithmeticElements;
 
 
 public class Main {

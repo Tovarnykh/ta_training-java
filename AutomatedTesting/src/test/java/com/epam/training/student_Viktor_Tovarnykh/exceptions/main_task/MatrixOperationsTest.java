@@ -1,5 +1,7 @@
-package com.epam.rd.qa.basicio;
+package com.epam.training.student_Viktor_Tovarnykh.exceptions.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.exceptions.main_task.Matrix;
+import com.epam.training.student_viktor_tovarnykh.exceptions.main_task.MatrixException;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

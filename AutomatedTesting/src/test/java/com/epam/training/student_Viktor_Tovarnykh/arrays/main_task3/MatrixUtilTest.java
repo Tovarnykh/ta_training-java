@@ -1,15 +1,14 @@
-package com.epam.rd.autotasks.matrix;
+package com.epam.training.student_Viktor_Tovarnykh.arrays.main_task3;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
+import com.epam.training.student_viktor_tovarnykh.arrays.main_task3.MatrixUtil;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.DisplayNameGenerator;
 import org.junit.jupiter.api.Test;
-
-import com.epam.rd.autotasks.matrix.MatrixUtil;
 
 @DisplayNameGeneration(ReplaceCamelCase.class)
 class MatrixUtilTest {

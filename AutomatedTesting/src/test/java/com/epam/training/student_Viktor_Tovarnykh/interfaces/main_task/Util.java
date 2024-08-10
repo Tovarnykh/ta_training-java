@@ -1,4 +1,9 @@
-package com.epam.rd.qa.aggregation;
+package com.epam.training.student_Viktor_Tovarnykh.interfaces.main_task;
+
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.BaseDeposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.Deposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.LongDeposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.SpecialDeposit;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
@@ -14,7 +19,7 @@ public class Util {
         executableMap.put(2, LongDeposit::new);
     }
 
-    static Stream<Deposit> generateDeposits(int limit, int seed) {
+    public static Stream<Deposit> generateDeposits(int limit, int seed) {
         Random r = new Random(seed);
         Random classRandom = new Random(seed);
         return Stream.generate(() -> executableMap.get(nextInt(classRandom, 0, 3))
@@ -22,7 +27,7 @@ public class Util {
                 .limit(limit);
     }
 
-    static int nextInt(Random r, int origin, int bound) {
+    public static int nextInt(Random r, int origin, int bound) {
         return r.nextInt(bound - origin) + origin;
     }
 }

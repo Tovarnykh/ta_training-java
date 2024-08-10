@@ -1,4 +1,4 @@
-package com.epam.rd.qa.aggregation;
+package com.epam.training.student_viktor_tovarnykh.interfaces.main_task;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

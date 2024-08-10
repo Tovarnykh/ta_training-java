@@ -1,20 +1,13 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_Viktor_Tovarnykh.enums.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.enums.main_task.Direction;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import java.util.Optional;
 import java.util.stream.Stream;
 
-import static com.epam.rd.autotasks.Direction.E;
-import static com.epam.rd.autotasks.Direction.N;
-import static com.epam.rd.autotasks.Direction.NE;
-import static com.epam.rd.autotasks.Direction.NW;
-import static com.epam.rd.autotasks.Direction.S;
-import static com.epam.rd.autotasks.Direction.SE;
-import static com.epam.rd.autotasks.Direction.SW;
-import static com.epam.rd.autotasks.Direction.W;
+import static com.epam.training.student_viktor_tovarnykh.enums.main_task.Direction.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 

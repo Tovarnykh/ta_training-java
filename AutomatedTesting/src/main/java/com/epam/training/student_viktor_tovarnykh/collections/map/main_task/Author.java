@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.collections.map;
+package com.epam.training.student_viktor_tovarnykh.collections.map.main_task;
 
 import java.util.Objects;
 

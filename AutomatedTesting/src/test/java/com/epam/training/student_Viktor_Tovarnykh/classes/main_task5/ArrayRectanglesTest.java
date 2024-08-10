@@ -1,5 +1,7 @@
-package com.epam.rd.qa.classes;
+package com.epam.training.student_Viktor_Tovarnykh.classes.main_task5;
 
+import com.epam.training.student_viktor_tovarnykh.classes.main_task5.ArrayRectangles;
+import com.epam.training.student_viktor_tovarnykh.classes.main_task5.Rectangle;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -13,7 +15,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static com.epam.rd.qa.classes.Util.nextDouble;
+import static com.epam.training.student_Viktor_Tovarnykh.classes.main_task5.Util.nextDouble;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ArrayRectanglesTest {

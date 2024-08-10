@@ -1,5 +1,9 @@
-package com.epam.rd.qa.aggregation;
+package com.epam.training.student_Viktor_Tovarnykh.interfaces.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.BaseDeposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.Deposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.LongDeposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.SpecialDeposit;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

@@ -1,10 +1,10 @@
-package com.epam.rd.autotasks.validations;
+package com.epam.training.student_Viktor_Tovarnykh.strings.main_task2;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullAndEmptySource;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import static com.epam.rd.autotasks.validations.EpamEmailValidation.validateEpamEmail;
+import static com.epam.training.student_viktor_tovarnykh.strings.main_task2.EpamEmailValidation.validateEpamEmail;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

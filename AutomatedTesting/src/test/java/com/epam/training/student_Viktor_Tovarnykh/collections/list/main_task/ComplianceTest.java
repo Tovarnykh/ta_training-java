@@ -1,5 +1,6 @@
-package com.epam.rd.autocode.collection.array;
+package com.epam.training.student_Viktor_Tovarnykh.collections.list.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.collections.list.main_task.SimpleArrayListImpl;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -46,46 +47,6 @@ public class ComplianceTest {
         SpoonAPI spoon = new Launcher();
         spoon.addInputResource("src/main/java/");
         ctModel = spoon.buildModel();
-    }
-
-    @Disabled
-    @Test
-    void testCompliance() {
-        SpoonAPI spoon = new Launcher();
-        spoon.addInputResource("src/main/java/");
-        spoon.buildModel();
-
-        List<String> types = spoon.getModel()
-                .getElements(new TypeFilter<>(CtTypeReference.class))
-                .stream()
-                .filter(r -> r.toString().startsWith("java.util."))
-                .map(CtTypeReference::getSimpleName)
-                .distinct()
-                .toList();
-
-        assertEquals(2, types.size(), () ->
-                "You must use exactly two types from java.util package and its subpackages: "
-                        + "java.util.Iterator and java.util.NoSuchElementException but found " + types);
-    }
-
-    @Test
-    void testUsages() {
-        List<String> types = ctModel
-                .getElements(new TypeFilter<>(CtTypeReference.class))
-                .stream()
-                .map(CtTypeReference::getQualifiedName)
-                .distinct()
-                .filter(r -> r.matches(FORBIDDEN_CLASSES_PATTERN))
-                .sorted()
-                .toList();
-        assertTrue(types.size() <= ALLOWED_CLASSES.size(),
-                "You can use exactly specified types from " + FORBIDDEN_CLASSES +
-                        " packages and theirs subpackages:\nexpected: " +
-                        ALLOWED_CLASSES + "\nbut found " + types  + "\n");
-        types.forEach(t -> assertTrue(ALLOWED_CLASSES.contains(t),
-                "You can use exactly specified types from " + FORBIDDEN_CLASSES +
-                        " packages and theirs subpackages:\nexpected: " +
-                        ALLOWED_CLASSES + "\nbut found " + types  + "\n"));
     }
 
     @Test

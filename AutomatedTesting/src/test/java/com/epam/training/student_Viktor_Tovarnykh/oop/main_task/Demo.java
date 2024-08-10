@@ -1,4 +1,4 @@
-package com.epam.rd.qa.inheritance;
+package com.epam.training.student_Viktor_Tovarnykh.oop.main_task;
 
 public class Demo {
 

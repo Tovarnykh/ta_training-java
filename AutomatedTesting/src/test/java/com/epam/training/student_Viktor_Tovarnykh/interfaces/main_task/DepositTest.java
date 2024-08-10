@@ -1,5 +1,8 @@
-package com.epam.rd.qa.aggregation;
+package com.epam.training.student_Viktor_Tovarnykh.interfaces.main_task;
 
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.Deposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.LongDeposit;
+import com.epam.training.student_viktor_tovarnykh.interfaces.main_task.SpecialDeposit;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -11,8 +14,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Stream;
 
-import static com.epam.rd.qa.aggregation.Util.executableMap;
-import static com.epam.rd.qa.aggregation.Util.nextInt;
+import static com.epam.training.student_Viktor_Tovarnykh.interfaces.main_task.Util.executableMap;
+import static com.epam.training.student_Viktor_Tovarnykh.interfaces.main_task.Util.nextInt;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 

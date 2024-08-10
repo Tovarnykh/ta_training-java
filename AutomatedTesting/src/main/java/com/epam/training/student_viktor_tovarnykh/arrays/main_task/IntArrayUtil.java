@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.array;
+package com.epam.training.student_viktor_tovarnykh.arrays.main_task;
 
 import java.util.Arrays;
 

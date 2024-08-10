@@ -1,4 +1,4 @@
-package com.epam.rd.qa.basicio;
+package com.epam.training.student_viktor_tovarnykh.exceptions.main_task;
 
 public class MatrixException extends RuntimeException {
 
