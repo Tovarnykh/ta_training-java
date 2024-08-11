@@ -1,4 +1,4 @@
-package com.epam.training.student_Viktor_Tovarnykh.webdriver.tests.main_task;
+package com.epam.training.student_Viktor_Tovarnykh.webdriver.pages;
 
 public enum PasteExpiration {
     NEVER(0),
