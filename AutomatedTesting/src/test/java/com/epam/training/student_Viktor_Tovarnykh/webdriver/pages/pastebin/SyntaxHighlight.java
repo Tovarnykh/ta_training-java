@@ -1,4 +1,4 @@
-package com.epam.training.student_Viktor_Tovarnykh.webdriver.pages;
+package com.epam.training.student_Viktor_Tovarnykh.webdriver.pages.pastebin;
 
 public enum SyntaxHighlight {
 

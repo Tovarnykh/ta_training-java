@@ -3,9 +3,9 @@ package com.epam.training.student_Viktor_Tovarnykh.webdriver.tests.main_task;
 import com.epam.training.student_Viktor_Tovarnykh.webdriver.drivers.DriverManager;
 import com.epam.training.student_Viktor_Tovarnykh.webdriver.drivers.DriverManagerFactory;
 import com.epam.training.student_Viktor_Tovarnykh.webdriver.drivers.DriverType;
-import com.epam.training.student_Viktor_Tovarnykh.webdriver.pages.PasteExpiration;
-import com.epam.training.student_Viktor_Tovarnykh.webdriver.pages.PastebinHomePage;
-import com.epam.training.student_Viktor_Tovarnykh.webdriver.pages.SyntaxHighlight;
+import com.epam.training.student_Viktor_Tovarnykh.webdriver.pages.pastebin.PasteExpiration;
+import com.epam.training.student_Viktor_Tovarnykh.webdriver.pages.pastebin.PastebinHomePage;
+import com.epam.training.student_Viktor_Tovarnykh.webdriver.pages.pastebin.SyntaxHighlight;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 
