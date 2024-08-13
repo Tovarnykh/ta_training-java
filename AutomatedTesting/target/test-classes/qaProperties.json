@@ -1,0 +1,13 @@
+{
+  "numberOfInstances": 4,
+  "operatingSystem": "FREE_PLAN",
+  "provisioningModel": false,
+  "machineFamily": "GENERAL",
+  "serie": "N1",
+  "machineType": "N1_STANDARD_8",
+  "addGPU": true,
+  "gpuModel": "NVIDIA_V100",
+  "gpuNumber": "ONE",
+  "ssdNumber": "TWO",
+  "region": "NETHERLANDS"
+}

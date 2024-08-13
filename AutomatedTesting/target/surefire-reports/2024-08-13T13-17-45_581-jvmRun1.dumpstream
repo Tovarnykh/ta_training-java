@@ -1,0 +1,985 @@
+# Created at 2024-08-13T13:18:41.710
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2024-08-13T13:18:47.004
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.selenium.test.PastebinHomePageTest,createNewPasteTest,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.006
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.epam.training.student_Viktor_Tovarnykh.selenium.test.PastebinHomePageTest,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.007
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.007
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForNumbers,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.009
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForNumbers,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.009
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnNullForArrayOfEmptyStrings,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.010
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnNullForArrayOfEmptyStrings,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.011
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForSample2,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.011
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForSample2,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.012
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForSample3,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.012
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForSample3,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.013
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsZeroForEmptySample,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.013
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsZeroForEmptySample,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.014
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.015
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.015
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.016
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.016
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.017
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.018
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.018
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.019
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.019
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.020
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.020
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.021
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.022
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.022
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.023
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.023
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.024
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.024
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.025
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.026
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.027
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.028
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[12],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.028
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[12],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.029
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[13],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.029
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[13],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.030
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[14],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.030
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[14],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.031
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[15],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.031
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[15],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.032
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[16],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.033
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForSeparatingCharsString{String}[16],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.033
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForSeparatedParts,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.034
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForSeparatedParts,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.034
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.035
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.036
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.036
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.037
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.037
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.038
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.038
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.039
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.039
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.040
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.040
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.041
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.041
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.042
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.042
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.043
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.043
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.044
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.044
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.045
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.046
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnix{String\002C String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.046
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsNullForNull,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.046
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsNullForNull,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.047
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForEmptyPath,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.047
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForEmptyPath,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.048
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForTextStartingWithSeparators,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.048
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForTextStartingWithSeparators,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.049
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.050
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.051
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.051
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.052
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.052
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.053
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.053
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.054
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.054
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.055
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.055
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.056
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.056
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.057
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.058
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.058
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.059
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.059
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.060
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.060
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.061
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWin{String\002C String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.061
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForNullText,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.062
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForNullText,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.062
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForTextEndingWithSeparators,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.063
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForTextEndingWithSeparators,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.063
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForSample,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.064
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForSample,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.065
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSample{String[]\002C String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.066
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSample{String[]\002C String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.067
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSample{String[]\002C String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.067
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSample{String[]\002C String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.068
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSample{String[]\002C String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.068
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSample{String[]\002C String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.069
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSample{String[]\002C String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.069
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSample{String[]\002C String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.070
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSample{String[]\002C String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.070
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSample{String[]\002C String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.071
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForSingleWord,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.071
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForSingleWord,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.072
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.073
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.073
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.074
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.074
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.075
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.076
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.076
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.077
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.078
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.078
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.079
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.079
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.080
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.080
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.081
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForIllegalPath{String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.082
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.082
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.083
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.084
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.084
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.085
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.085
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.086
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.087
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.087
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.088
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.089
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.090
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.090
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.091
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.092
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.092
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.093
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.093
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.094
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.095
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.095
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForUnixToWinToUnix{String\002C String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.096
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForSample2,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.096
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForSample2,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.097
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForSample3,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.097
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForSample3,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.097
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForSample4,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.098
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForSample4,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.098
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsNullForEmpty,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.099
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsNullForEmpty,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.099
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsZeroForNullSample,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.100
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsZeroForNullSample,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.100
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForTwoWords,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.101
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForTwoWords,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.101
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForNumbers,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.101
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForNumbers,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.102
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForSample,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.102
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsForSample,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.104
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.104
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.105
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.106
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.106
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.107
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.107
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.108
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.109
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.109
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.110
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.111
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.111
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.112
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.112
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.113
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.114
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.114
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.115
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.115
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.116
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.117
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForWinToUnixToWin{String\002C String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.117
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsZeroForNullWords,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.118
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsZeroForNullWords,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.118
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForEmptyText,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.118
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsNullForEmptyText,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.119
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForSample,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.120
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsForSample,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.120
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForUpperCaseText,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.121
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testSplitReturnsForUpperCaseText,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.121
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSingleWord,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.121
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testJoinReturnsForSingleWord,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.122
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForNullPath,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.122
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testConvertReturnsNullForNullPath,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.123
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsZeroForEmptyWords,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.123
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,testCountReturnsZeroForEmptyWords,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.124
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.epam.training.student_Viktor_Tovarnykh.strings.main_task.StringUtilTest,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.124
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,null,null,null
+
+
+# Created at 2024-08-13T13:18:47.127
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailValidCases{String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.128
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailValidCases{String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.129
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailValidCases{String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.130
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailValidCases{String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.131
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailValidCases{String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.131
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailValidCases{String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.132
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailValidCases{String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.133
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailValidCases{String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.135
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.135
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[1],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.137
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.138
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[2],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.138
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.139
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[3],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.140
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.140
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[4],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.141
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.142
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[5],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.142
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.143
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[6],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.144
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.144
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[7],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.145
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.145
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[8],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.146
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.147
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[9],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.148
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.148
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[10],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.149
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.150
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[11],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.151
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[12],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.152
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[12],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.152
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[13],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.153
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[13],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.154
+Unexpected IOException: 5,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[14],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.154
+Unexpected IOException: 6,1,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,validateEpamEmailInvalidCases{String}[14],null,null,null
+
+
+# Created at 2024-08-13T13:18:47.155
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.epam.training.student_Viktor_Tovarnykh.strings.main_task2.EpamEmailValidationTest,null,null,null
+
+

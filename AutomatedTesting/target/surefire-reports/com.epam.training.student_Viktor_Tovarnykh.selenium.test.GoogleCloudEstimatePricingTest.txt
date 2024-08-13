@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.training.student_Viktor_Tovarnykh.selenium.test.GoogleCloudEstimatePricingTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.885 s - in com.epam.training.student_Viktor_Tovarnykh.selenium.test.GoogleCloudEstimatePricingTest
