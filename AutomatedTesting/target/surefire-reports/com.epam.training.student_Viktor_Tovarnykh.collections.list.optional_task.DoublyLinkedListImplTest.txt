@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.epam.training.student_Viktor_Tovarnykh.collections.list.optional_task.DoublyLinkedListImplTest
--------------------------------------------------------------------------------
-Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.406 s - in com.epam.training.student_Viktor_Tovarnykh.collections.list.optional_task.DoublyLinkedListImplTest

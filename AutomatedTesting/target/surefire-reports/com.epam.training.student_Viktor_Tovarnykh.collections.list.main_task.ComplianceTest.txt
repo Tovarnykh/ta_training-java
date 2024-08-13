@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.epam.training.student_Viktor_Tovarnykh.collections.list.main_task.ComplianceTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.753 s - in com.epam.training.student_Viktor_Tovarnykh.collections.list.main_task.ComplianceTest
